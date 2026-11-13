@@ -1,0 +1,368 @@
+{
+  "_catatan": "SEED AWAL - WAJIB diverifikasi kelompok dengan sumber resmi motogp.com (line-up tim bisa berubah tiap musim). Tambah entity lewat build_entity_candidates.py + sumber resmi. 'source' = corpus | official | extra.",
+  "entities": [
+    {
+      "id": "marc_marquez",
+      "name": "Marc Marquez",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "mm93",
+        "marc marquez",
+        "marquez",
+        "the ant",
+        "el hormiga"
+      ]
+    },
+    {
+      "id": "alex_marquez",
+      "name": "Alex Marquez",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "alex marquez",
+        "marquez"
+      ]
+    },
+    {
+      "id": "francesco_bagnaia",
+      "name": "Francesco Bagnaia",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "bagnaia",
+        "pecco",
+        "pecco bagnaia",
+        "pecco-bagnaia",
+        "fb63"
+      ]
+    },
+    {
+      "id": "jorge_martin",
+      "name": "Jorge Martin",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "jorge martin",
+        "martinator",
+        "jm89",
+        "martin"
+      ]
+    },
+    {
+      "id": "fabio_quartararo",
+      "name": "Fabio Quartararo",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "quartararo",
+        "el diablo",
+        "fq20"
+      ]
+    },
+    {
+      "id": "valentino_rossi",
+      "name": "Valentino Rossi",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "valentino rossi",
+        "rossi",
+        "vr46",
+        "the doctor"
+      ]
+    },
+    {
+      "id": "pedro_acosta",
+      "name": "Pedro Acosta",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "pedro acosta",
+        "acosta",
+        "tiburon"
+      ]
+    },
+    {
+      "id": "marco_bezzecchi",
+      "name": "Marco Bezzecchi",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "bezzecchi",
+        "bez"
+      ]
+    },
+    {
+      "id": "brad_binder",
+      "name": "Brad Binder",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "brad binder",
+        "binder"
+      ]
+    },
+    {
+      "id": "enea_bastianini",
+      "name": "Enea Bastianini",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "bastianini",
+        "the beast"
+      ]
+    },
+    {
+      "id": "fabio_di_giannantonio",
+      "name": "Fabio Di Giannantonio",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "di giannantonio",
+        "diggia"
+      ]
+    },
+    {
+      "id": "joan_mir",
+      "name": "Joan Mir",
+      "type": "rider",
+      "source": "official",
+      "aliases": [
+        "joan mir"
+      ]
+    },
+    {
+      "id": "ducati",
+      "name": "Ducati",
+      "type": "team",
+      "source": "official",
+      "aliases": [
+        "ducati",
+        "ducati lenovo",
+        "desmosedici"
+      ]
+    },
+    {
+      "id": "yamaha",
+      "name": "Yamaha",
+      "type": "team",
+      "source": "official",
+      "aliases": [
+        "yamaha",
+        "monster energy yamaha"
+      ]
+    },
+    {
+      "id": "honda",
+      "name": "Honda",
+      "type": "team",
+      "source": "official",
+      "aliases": [
+        "honda",
+        "repsol honda",
+        "hrc"
+      ]
+    },
+    {
+      "id": "aprilia",
+      "name": "Aprilia",
+      "type": "team",
+      "source": "official",
+      "aliases": [
+        "aprilia",
+        "aprilia racing"
+      ]
+    },
+    {
+      "id": "ktm",
+      "name": "KTM",
+      "type": "team",
+      "source": "official",
+      "aliases": [
+        "ktm",
+        "red bull ktm"
+      ]
+    },
+    {
+      "id": "gresini",
+      "name": "Gresini Racing",
+      "type": "team",
+      "source": "official",
+      "aliases": [
+        "gresini",
+        "gresini racing"
+      ]
+    },
+    {
+      "id": "vr46_team",
+      "name": "VR46 Racing Team",
+      "type": "team",
+      "source": "official",
+      "aliases": [
+        "vr46 racing",
+        "vr46 racing team",
+        "pertamina enduro vr46"
+      ]
+    },
+    {
+      "id": "pramac",
+      "name": "Pramac",
+      "type": "team",
+      "source": "official",
+      "aliases": [
+        "pramac",
+        "prima pramac"
+      ]
+    },
+    {
+      "id": "mandalika",
+      "name": "Sirkuit Mandalika",
+      "type": "circuit",
+      "source": "official",
+      "aliases": [
+        "mandalika",
+        "sirkuit mandalika",
+        "pertamina mandalika"
+      ]
+    },
+    {
+      "id": "sepang",
+      "name": "Sepang",
+      "type": "circuit",
+      "source": "official",
+      "aliases": [
+        "sepang"
+      ]
+    },
+    {
+      "id": "mugello",
+      "name": "Mugello",
+      "type": "circuit",
+      "source": "official",
+      "aliases": [
+        "mugello"
+      ]
+    },
+    {
+      "id": "assen",
+      "name": "Assen",
+      "type": "circuit",
+      "source": "official",
+      "aliases": [
+        "assen",
+        "tt assen"
+      ]
+    },
+    {
+      "id": "jerez",
+      "name": "Jerez",
+      "type": "circuit",
+      "source": "official",
+      "aliases": [
+        "jerez"
+      ]
+    },
+    {
+      "id": "motogp",
+      "name": "MotoGP",
+      "type": "event",
+      "source": "official",
+      "aliases": [
+        "motogp",
+        "moto gp"
+      ]
+    },
+    {
+      "id": "raul_fernandez",
+      "name": "Raul Fernandez",
+      "type": "rider",
+      "source": "corpus",
+      "aliases": [
+        "raul fernandez",
+        "fernandez"
+      ]
+    },
+    {
+      "id": "ai_ogura",
+      "name": "Ai Ogura",
+      "type": "rider",
+      "source": "corpus",
+      "aliases": [
+        "ai ogura",
+        "ogura"
+      ]
+    },
+    {
+      "id": "franco_morbidelli",
+      "name": "Franco Morbidelli",
+      "type": "rider",
+      "source": "corpus",
+      "aliases": [
+        "morbidelli",
+        "franco morbidelli"
+      ]
+    },
+    {
+      "id": "fermin_aldeguer",
+      "name": "Fermin Aldeguer",
+      "type": "rider",
+      "source": "corpus",
+      "aliases": [
+        "fermin aldeguer",
+        "aldeguer"
+      ]
+    },
+    {
+      "id": "luca_marini",
+      "name": "Luca Marini",
+      "type": "rider",
+      "source": "corpus",
+      "aliases": [
+        "luca marini",
+        "marini"
+      ]
+    },
+    {
+      "id": "johann_zarco",
+      "name": "Johann Zarco",
+      "type": "rider",
+      "source": "corpus",
+      "aliases": [
+        "johann zarco",
+        "zarco"
+      ]
+    },
+    {
+      "id": "trackhouse",
+      "name": "Trackhouse",
+      "type": "team",
+      "source": "corpus",
+      "aliases": [
+        "trackhouse",
+        "trackhouse racing"
+      ]
+    },
+    {
+      "id": "silverstone",
+      "name": "Sirkuit Silverstone",
+      "type": "circuit",
+      "source": "corpus",
+      "aliases": [
+        "silverstone",
+        "sirkuit silverstone"
+      ]
+    },
+    {
+      "id": "aragon",
+      "name": "Sirkuit Aragon",
+      "type": "circuit",
+      "source": "corpus",
+      "aliases": [
+        "aragon",
+        "sirkuit aragon",
+        "motorland aragon"
+      ]
+    }
+  ]
+}
