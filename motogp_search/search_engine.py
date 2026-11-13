@@ -38,6 +38,16 @@ class HybridSearchEngine:
         self.entity_index = EntityIndex(
             self.dictionary, list(zip(df["doc_id"], df["title"], df["text"].astype(str))))
 
+    def _cell(self, i: int, col: str) -> str:
+        if col not in self.df or pd.isna(self.df.loc[i, col]):
+            return ""
+        v = self.df.loc[i, col]
+        return v.strftime("%Y-%m-%d") if hasattr(v, "strftime") else str(v)
+
+    def search_baseline(self, query: str, top_k: int = 10) -> dict:
+        """BASELINE untuk evaluasi: TF-IDF + cosine murni (tanpa entity, tanpa perluasan query)."""
+        return self.search(query, top_k=top_k, w_text=1.0, w_entity=0.0, expand_query=False)
+
     # ------------------------------------------------------------------
     def search(self, query: str, top_k: int = 10, w_text: float | None = None,
                w_entity: float | None = None, expand_query: bool = True) -> dict:
@@ -83,6 +93,8 @@ class HybridSearchEngine:
                 "doc_id": d,
                 "title": self.df.loc[i, "title"],
                 "media": self.df.loc[i, "media"] if "media" in self.df else "",
+                "date": self._cell(i, "date"),
+                "url": self._cell(i, "url"),
                 "snippet": str(self.df.loc[i, "text"])[:220],
                 "s_text": round(float(s_text[i]), 4),
                 "s_entity": round(float(s_entity[i]), 4),

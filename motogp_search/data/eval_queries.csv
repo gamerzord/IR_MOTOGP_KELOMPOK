@@ -1,0 +1,11 @@
+query_id,query,jenis
+Q1,MM93 Ducati,entity (alias)
+Q2,Marc Marquez menang,entity
+Q3,Jorge Martin pole position,entity
+Q4,Quartararo pindah Honda,entity
+Q5,Mandalika siap MotoGP 2026,entity (sirkuit)
+Q6,hasil FP1 Aragon,entity (sirkuit) + non-entity
+Q7,transfer pembalap 2027,non-entity
+Q8,perbedaan helm MotoGP dan F1,non-entity
+Q9,Pecco Bagnaia kecewa,entity (alias)
+Q10,Veda Ega Moto3,entity di luar kamus (uji keterbatasan)

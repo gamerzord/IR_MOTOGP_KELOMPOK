@@ -44,8 +44,8 @@ PAGE = """
  </div>
  {% for r in out.results %}
   <div class="res">
-   <h3>{{ r.rank }}. {{ r.title }}</h3>
-   <div class="sc">{{ r.doc_id }} &middot; {{ r.media }} &middot; <b>skor akhir {{ r.s_final }}</b>
+   <h3>{{ r.rank }}. {% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.title }}</a>{% else %}{{ r.title }}{% endif %}</h3>
+   <div class="sc">{{ r.doc_id }} &middot; {{ r.media }} &middot; {{ r.date }} &middot; <b>skor akhir {{ r.s_final }}</b>
      (text {{ r.s_text }} &times; w + entity {{ r.s_entity }} &times; w)</div>
    <div class="snip">{{ r.snippet }}...</div>
    {% for e in r.entities %}<span class="tag">{{ e }}</span>{% endfor %}
